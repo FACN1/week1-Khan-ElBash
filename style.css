@@ -1,0 +1,19 @@
+img{
+  width: 10%;
+  border-radius: 50%;
+}
+.div {
+    text-align: center;
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+p{
+  border-radius: 5px;
+  border-left: 6px solid aqua;
+  background: rgba(0, 0, 0, 0.2);
+  color: black;
+}
+.icon{
+  margin-bottom: 20px;
+}
