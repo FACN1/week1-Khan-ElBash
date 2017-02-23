@@ -93,14 +93,20 @@
     </section>
 
     <section id="contact">
-      <h1 class="contactHeader">Contact</h1>
-      <p>This first tag is almost the same as any other HTML tag you would
-        use to create a link to another page. However, to create a bookmark
-        anchor), you must start the link with a # (pound symbol,) which
-        represents a name statement, used in the next tag. When the user
-        clicks on the "Top" link, the computer would then go to the name tag,
-        if found on the same page of the link.
-      </p>
+
+      <h1>Contact</h1>
+      <div class="contact">
+          <form action="index.html" method="post">
+              <span>Name:</span>
+              <input type="text" name="name" >
+              <span>Email:</span>
+              <input type="email" name="email" >
+              <span>Message:</span>
+              <textarea rows="4" cols="40" name="comment" form="usrform" placeholder="Enter text here..."></textarea>
+              <button class="btnSubmit" type="submit" name="submit">submit</button>
+          </form>
+      </div>
+
     </section>
 
 
